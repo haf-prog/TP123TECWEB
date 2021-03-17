@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mon premier formulaire</title>
+  </head>
+  <body> <form> <h1> Votre Avis Nous Intéresse </h1>
+    <style> .container{ Display: flex; } </style> <div class=container>
+      <fieldset> <legend>Informations personnelles</legend> 1.Nom <input type="text" name="Nom" maxlength="25"/></br>
+        2.Date de naissance <input name="Date de naissance" type="date" required="" maxlength="25"/><br/> <tr>   <td>
+          3.Site <input type="text" name="Salaire"
+          id="Salaire" placeholder="http:// monsite.com" maxlength="25" /><br/>
+4.Emploi</td>    <td> <select name="Emploi" maxlength="25"><option value="">        </option> <option value="directeur">directeur
+  </option>  <option value="Administrateur">Administrateur</option>   <option value="architecte">architecte</option>   <option value="professeur">
+  professeur</option>   <option value="ingénieur">ingénieur</option>
+</select>   </td> </tr> </br>
+5.Aproxi. salaire Annuel </br>  <input type="number" name="Salaire" id="Salaire" placeholder="$" maxlength="25"/><br/>  </fieldset> <fieldset> <legend>Informations de contact</legend>
+  1.Adresse ligne 1<br>  <input type="adresse" name="Adresse ligne 1" id="Adresse ligne 1" value=""/><br/> 2.Adresse ligne 2<br>
+  <input type="adresse" name="Adresse ligne 2" id="Adresse ligne 2" value=""/><br/> <tr>  <td>
+    3.Pays</td>   <td> <select name="distination" id="distination"><option value="">     </option> <option value="Algérie"> Algérie </option>
+<option value="Tunisie"> Tunisie </option> <option value="Maroc"> Maroc </option> <option value="sahara occidentale"> sahara occidentale </option>
+<option value="Lybie"> Lybie </option> <option value="Mauritanie"> Mauritanie </option>
+</select> </td> </tr> </br>4.Tel <input type="number" name="Tel" id="Tel" placeholder="eg: +213 67...."/><br/> 5.Courriel <input type="email" name="Courriel" id="Courriel">
+</fieldset>
+</div>
+<div class="Préférences">
+<h2>Préférences</h2>
+choisir une couleur <input required type="color" name="" value="black"><br>
+Sur une échelle de 1 à 10, quel est votre degré d'enthousiasme pour HTML5 ?
+<input type="range" required="" /><br>
+ <input type="submit" value="Envoyer">
+</div>
+</body>
+</html>
